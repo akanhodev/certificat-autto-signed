@@ -1,4 +1,4 @@
-# Comment générer un certificat SSL auto-signé sur Linux
+# Comment Générez un certificat SSL auto-signé sur Linux
 
 ## Étape 1 : créer une paire de clés RSA
 
@@ -10,7 +10,7 @@
 
 `openssl genrsa -des3 -passout pass:x -out keypair.key 2048`
 
-## Étape 2 : extrayez la clé privée dans le dossier « httpd »
+## Étape 2 : Extraction la clé privée dans le dossier « httpd »
 
 ### créer le dossier "httpscertificat" (vous pouvez donner le nom que vous voulez) dans le repertoire '/etc/httpd/'
 
